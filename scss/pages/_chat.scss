@@ -1,0 +1,27 @@
+// Chat
+
+.msg-overlay-bubble-header,
+.msg-overlay-list-bubble,
+.msg-overlay-list-bubble--expanded,
+.msg-overlay-conversation-bubble--petite,
+.msg-overlay-conversation-bubble--jumbo {
+    background: var(--main-surface-color) !important;
+}
+.msg-form__footer {
+    background-color: var(--main-surface-color) !important;
+}
+.msg-overlay-list-bubble-search__search-typeahead-input,
+.msg-overlay-list-bubble-search__search-typeahead-input::placeholder,
+.msg-form__message-texteditor {
+    background-color: var(--main-surface-color--tinted) !important;
+    color: var(--main-txt-color) !important;
+}
+.msg-overlay-list-search__search-icon {
+    color: var(--main-surface-color--light-muted) !important;
+}
+div.artdeco-hoverable-content__shell {
+    background-color: var(--main-surface-color) !important;
+}
+ul.artdeco-card {
+    background-color: var(--main-surface-color--tinted) !important;
+}

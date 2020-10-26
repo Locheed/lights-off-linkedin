@@ -1,0 +1,25 @@
+// Buttons
+
+// Start a new post trigger button
+.share-box-feed-entry__trigger--v2 {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+
+// Basic UI buttons. (Like, Comment etc.)
+.artdeco-button--muted,
+.comments-comment-social-bar__likes-count,
+.comments-comment-social-bar__replies-count,
+.comments-comment-social-bar__action-button,
+.follows-recommendation-card__follow-btn.is-following {
+    color: var(--helper-txt-color) !important;
+}
+
+// Post reactions menu (Like, Celebrate, Support, Love, Insightfull, Curious)
+.reactions-menu {
+    background-color: var(--main-surface-color) !important;
+}
+
+// Carette buttons (caret-filled-down-icon)
+.sort-dropdown__icon {
+    color: var(--main-surface-color--light) !important;
+}

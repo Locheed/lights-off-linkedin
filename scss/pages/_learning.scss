@@ -1,0 +1,31 @@
+// Learning page
+
+// Navigation
+.global-nav--inverse {
+    background-color: var(--main-surface-color) !important;
+}
+
+// Browse tabs
+.artdeco-tabs .artdeco-tab {
+    color: var(--helper-txt-color) !important;
+}
+
+.secondary-nav-bar {
+    background-color: var(--main-surface-color--tinted) !important;
+    &__link {
+        color: var(--helper-txt-color) !important;
+    }
+}
+
+// Carousel
+// Carousel gradient
+.recommendation-carousel-card--disabled:after {
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        var(--main-surface-color) 50%
+    ) !important;
+}
+.lls-card-explore-card--expanded {
+    background-color: var(--main-surface-color--tinted) !important;
+}

@@ -1,0 +1,101 @@
+// Base surface color. This file has the most areas that needs changing.
+
+// Profile images background while image is still loading
+[class*="EntityPhoto-circle"],
+[class*="EntityPhoto-square"] {
+    background-color: var(--main-surface-color) !important;
+}
+
+// Modals background color
+div.artdeco-modal {
+    background-color: var(--main-surface-color) !important;
+}
+
+// List item background color
+li.entity-list-item {
+    background-color: var(--main-surface-color);
+}
+
+// Base app background color
+html,
+body,
+html.artdeco.windows,
+#app-boot-bg-loader,
+body.theme--mercado {
+    background-color: var(--main-bg-color) !important;
+}
+
+// Several areas that needs overriding with surface color. Some tags is needed to are
+// needed to have precedence over default styling
+.container,
+.artdeco-card,
+div.entity-hovercard,
+div.artdeco-card,
+section.artdeco-card,
+nav.artdeco-card,
+li.artdeco-card,
+fieldset.artdeco-card,
+.comments-comments-list,
+.feed-shared-external-video__meta,
+.follows-recommendation-card__hashtag-icon,
+.feed-shared-article,
+.emoji-popover__categories,
+.artdeco-entity-lockup__image--type-square img,
+.search-query-suggestions,
+.search-s-rail--content,
+.search-s-rail__sticky-container,
+.pv-entity__position-group-role-item,
+.feed-shared-linkedin-video__description-container--learning,
+.artdeco-toast-item {
+    background-color: var(--main-surface-color) !important;
+}
+
+.comments-highlighted-comment-item-content-body,
+.comments-reply-item-content-body,
+.comments-post-meta__profile-link,
+.comments-comment-item-content-body {
+    background-color: var(--main-bg-color) !important;
+}
+
+.feed-shared-image__container,
+.feed-shared-external-video__meta,
+.feed-shared-first-prompt-block,
+.feed-shared-article--with-large-image,
+.feed-shared-article__description-container,
+.feed-shared-mini-update-v2,
+.share-box-footer,
+div.artdeco-dropdown__content {
+    background-color: var(--main-surface-color) !important;
+}
+div.artdeco-dropdown__content-inner {
+    color: var(--main-txt-color) !important;
+}
+.feed-shared-inline-show-more-text__see-more-less-toggle {
+    background-color: transparent !important;
+}
+.theme--mercado .share-content-type-drawer__content,
+.share-generic-list__item-button:hover,
+.image-sharing-detour-container__edit-content,
+.video-detour__edit-content,
+.comments-comment-texteditor,
+.jobs-home-soho--mercado-theme,
+.jobs-blended-container__module--premium {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.artdeco-text-input--input {
+    background-color: var(--main-surface-color--light) !important;
+}
+.share-content-type-button {
+    background-color: var(--main-bg-color) !important;
+}
+.share-content-type-drawer__arrow--bottom::after {
+    border-bottom: 14px solid var(--main-surface-color--tinted) !important;
+}
+
+// Contact invites
+.invitation-card--new-invite {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.invitation-card__picture {
+    background-color: var(--main-surface-color) !important;
+}

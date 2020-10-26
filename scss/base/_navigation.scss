@@ -1,0 +1,22 @@
+// Navigation bar
+
+header.global-nav {
+    background-color: var(--main-surface-color) !important;
+}
+
+li a.global-nav__primary-link,
+li a.global-nav__primary-link:visited,
+span.global-nav__primary-link-text,
+li button.global-nav__primary-link {
+    color: var(--helper-txt-color) !important;
+}
+li a.global-nav__primary-link--active:after,
+li a.global-nav__primary-link:after {
+    border-color: var(--main-txt-color) !important;
+}
+li a.global-nav__primary-link--active,
+li a.global-nav__primary-link--active:visited,
+li a.global-nav__primary-link:hover,
+li button.global-nav__primary-link:hover {
+    color: var(--main-txt-color) !important;
+}

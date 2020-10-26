@@ -1,0 +1,20 @@
+// Notification page surfaces
+
+.nt-card {
+    background-color: var(--main-surface-color) !important;
+}
+.nt-card--unread,
+.nt-settings-summary {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.nt-card-content__body--secondary {
+    background-color: var(--main-bg-color) !important;
+}
+.nt-card-settings-dropdown__content .artdeco-dropdown__content,
+.nt-card-settings-dropdown__item {
+    background-color: var(--main-surface-color) !important;
+}
+.nt-card-settings-dropdown__trigger-icon,
+.nt-card-settings-dropdown__icon {
+    color: var(--icon-color) !important;
+}

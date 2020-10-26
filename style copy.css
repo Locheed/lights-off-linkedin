@@ -1,0 +1,356 @@
+:root {
+    --main-bg-color: #121212;
+    --main-bg-color--tinted: #121218;
+    --main-surface-color: #222831;
+    --main-surface-color--light: rgba(255, 255, 255, 0.9);
+    --main-surface-color--light-muted: rgba(255, 255, 255, 0.6);
+    --main-surface-color--tinted: #1e2735;
+    --main-txt-color: rgba(255, 255, 255, 0.9);
+    --helper-txt-color: rgba(255, 255, 255, 0.6);
+    --icon-color: rgba(255, 255, 255, 0.6);
+}
+
+/*
+Helper classes
+*/
+.t-black {
+    color: var(--main-txt-color) !important;
+}
+.t-black--light {
+    color: var(--helper-txt-color) !important;
+}
+strong {
+    color: var(--main-txt-color) !important;
+}
+
+/*
+Buttons
+*/
+.artdeco-button--muted,
+.comments-comment-social-bar__likes-count,
+.comments-comment-social-bar__replies-count,
+.comments-comment-social-bar__action-button,
+.follows-recommendation-card__follow-btn.is-following {
+    color: var(--helper-txt-color) !important;
+}
+.reactions-menu {
+    background-color: var(--main-surface-color) !important;
+}
+
+/*
+Search
+*/
+.search-global-typeahead__content,
+.container-with-shadow {
+    background-color: var(--main-surface-color) !important;
+}
+.search-global-typeahead__content li:hover {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.search-basic-typeahead input::placeholder,
+.search-result__social-proof-link {
+    color: var(--helper-txt-color) !important;
+}
+
+/*
+Base surface color
+*/
+[class*="EntityPhoto-circle"],
+[class*="EntityPhoto-square"] {
+    background-color: var(--main-surface-color) !important;
+}
+.theme--mercado .share-box-feed-entry__trigger--v2 {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+div.artdeco-modal {
+    background-color: var(--main-surface-color) !important;
+}
+li.entity-list-item {
+    background-color: var(--main-surface-color);
+}
+html,
+body,
+html.artdeco.windows,
+#app-boot-bg-loader,
+body.theme--mercado {
+    background-color: var(--main-bg-color) !important;
+}
+.artdeco-card,
+div.artdeco-card,
+section.artdeco-card,
+nav.artdeco-card,
+li.artdeco-card,
+fieldset.artdeco-card,
+.comments-comments-list,
+.feed-shared-external-video__meta,
+.container,
+.follows-recommendation-card__hashtag-icon,
+.feed-shared-article,
+.emoji-popover__categories,
+.artdeco-entity-lockup__image--type-square img,
+div.entity-hovercard,
+.search-query-suggestions,
+.search-s-rail--content,
+.search-s-rail__sticky-container,
+.pv-entity__position-group-role-item,
+.feed-shared-linkedin-video__description-container--learning {
+    background-color: var(--main-surface-color) !important;
+}
+
+.comments-highlighted-comment-item-content-body,
+.comments-reply-item-content-body,
+.comments-post-meta__profile-link,
+.comments-comment-item-content-body {
+    background-color: var(--main-bg-color) !important;
+}
+
+.feed-shared-image__container,
+.feed-shared-external-video__meta,
+.feed-shared-first-prompt-block,
+.feed-shared-article--with-large-image,
+.feed-shared-article__description-container,
+.share-box-footer,
+div.artdeco-dropdown__content {
+    background-color: var(--main-surface-color) !important;
+}
+div.artdeco-dropdown__content-inner {
+    color: var(--main-txt-color) !important;
+}
+.feed-shared-inline-show-more-text__see-more-less-toggle {
+    background-color: transparent !important;
+}
+.theme--mercado .share-content-type-drawer__content,
+.share-generic-list__item-button:hover,
+.image-sharing-detour-container__edit-content,
+.video-detour__edit-content,
+.comments-comment-texteditor,
+.jobs-home-soho--mercado-theme,
+.jobs-blended-container__module--premium {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.artdeco-text-input--input {
+    background-color: var(--main-surface-color--light) !important;
+}
+.share-content-type-button {
+    background-color: var(--main-bg-color) !important;
+}
+.share-content-type-drawer__arrow--bottom::after {
+    border-bottom: 14px solid var(--main-surface-color--tinted) !important;
+}
+
+/*
+article publishing
+*/
+.publishing-page,
+.zen-nav,
+.ql-picker-options {
+    background-color: var(--main-surface-color) !important;
+}
+.ql-picker-options button {
+    color: var(--main-txt-color) !important;
+}
+.ql-picker-options button:hover {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.cover-image__label {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.artdeco-button__icon {
+    color: var(--main-surface-color--light-muted) !important;
+}
+.cover-image,
+.publishing-cover-image__enable-button {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+/*
+Chat
+*/
+.msg-overlay-bubble-header,
+.msg-overlay-list-bubble,
+.msg-overlay-list-bubble--expanded,
+.msg-overlay-conversation-bubble--petite,
+.msg-overlay-conversation-bubble--jumbo {
+    background: var(--main-surface-color) !important;
+}
+.msg-form__footer {
+    background-color: var(--main-surface-color) !important;
+}
+.msg-overlay-list-bubble-search__search-typeahead-input,
+.msg-overlay-list-bubble-search__search-typeahead-input::placeholder,
+.msg-form__message-texteditor {
+    background-color: var(--main-surface-color--tinted) !important;
+    color: var(--main-txt-color) !important;
+}
+.msg-overlay-list-search__search-icon {
+    color: var(--main-surface-color--light-muted) !important;
+}
+div.artdeco-hoverable-content__shell {
+    background-color: var(--main-surface-color) !important;
+}
+ul.artdeco-card {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+
+/*
+Messaging page
+*/
+.msg-messaging-container__core-rail,
+.msg-spinmail-thread__top-banner {
+    background-color: var(--main-surface-color) !important;
+}
+.msg-conversations-container__convo-item-link.active {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+/*
+Notification page surfaces
+*/
+.nt-card {
+    background-color: var(--main-surface-color) !important;
+}
+.nt-card--unread,
+.theme--mercado .nt-settings-summary {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.theme--mercado .nt-card-content__body--secondary {
+    background-color: var(--main-bg-color) !important;
+}
+.nt-card-settings-dropdown__content artdeco-dropdown__content,
+.nt-card-settings-dropdown__item {
+    background-color: var(--main-surface-color) !important;
+}
+.nt-card-settings-dropdown__trigger-icon,
+.nt-card-settings-dropdown__icon {
+    color: var(--icon-color) !important;
+}
+
+/*
+Profile page
+*/
+.theme--mercado section.poc-opportunities-card--unenrolled {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.pv-about__summary-text .lt-line-clamp__ellipsis::before {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        var(--main-surface-color)
+    ) !important;
+}
+.theme--mercado .pv-about__summary-text .lt-line-clamp__more {
+    color: var(--main-txt-color) !important;
+}
+.profile-photo-edit,
+.pab-featured-item__image,
+.pv-profile-sticky-header,
+.artdeco-button--inverse.artdeco-button,
+.artdeco-button--inverse.artdeco-button--primary,
+.pv-profile-section__card-item-v2,
+.pv-entity__position-group-pager,
+.pv-profile-section__section-info,
+.pv-profile-section__card-item,
+.pv-accomplishments-block--expanded {
+    background-color: var(--main-surface-color) !important;
+}
+.theme--mercado .pv-dashboard-section {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.theme--mercado .pe-hub-drawer__expand-button,
+.actor-name-with-distance {
+    color: var(--main-txt-color) !important;
+}
+.distance-badge,
+.pv-accomplishments-block__summary-list-item {
+    color: var(--helper-txt-color) !important;
+}
+.inline-show-more-text__button,
+.inline-show-more-text__link-container-collapsed {
+    color: var(--helper-txt-color) !important;
+    background-color: var(--main-surface-color) !important;
+}
+
+/*
+Navigation bar
+*/
+
+header.global-nav {
+    background-color: var(--main-surface-color) !important;
+}
+
+li a.global-nav__primary-link,
+li a.global-nav__primary-link:visited,
+li a.global-nav__primary-link,
+li a.global-nav__primary-link:visited,
+span.global-nav__primary-link-text,
+li button.global-nav__primary-link {
+    color: var(--helper-txt-color) !important;
+}
+li a.global-nav__primary-link--active:after,
+li a.global-nav__primary-link--active:after,
+li a.global-nav__primary-link:after {
+    border-color: var(--main-txt-color) !important;
+}
+li a.global-nav__primary-link--active,
+li a.global-nav__primary-link--active:visited,
+li a.global-nav__primary-link--active,
+li a.global-nav__primary-link--active:visited,
+li a.global-nav__primary-link:hover,
+li button.global-nav__primary-link:hover {
+    color: var(--main-txt-color) !important;
+}
+
+/*
+Base link and text colors
+*/
+body,
+p,
+h2,
+h3,
+h4 {
+    color: var(--main-txt-color) !important;
+}
+.ql-editor.ql-blank::before {
+    color: var(--helper-txt-color) !important;
+}
+.artdeco-entity-lockup__title,
+.msg-entity-lockup__entity-title,
+.artdeco-modal__header h1,
+.artdeco-modal__header h2,
+.artdeco-modal__header h3,
+.artdeco-modal__header h4,
+.artdeco-modal__header h5,
+.artdeco-modal__header h6,
+.artdeco-text-input--label,
+.profile-card-one-to-one__profile-link {
+    color: var(--main-txt-color) !important;
+}
+.artdeco-entity-lockup__subtitle,
+.artdeco-entity-lockup__badge,
+.job-card-container__company-name,
+.job-card-container__company-name:visited,
+.job-card-container__metadata-item {
+    color: var(--helper-txt-color) !important;
+}
+.feed-shared-header__text-view a {
+    color: var(--main-txt-color) !important;
+}
+.feed-shared-update-v2__commentary {
+    color: var(--main-txt-color) !important;
+}
+span.feed-shared-actor__description,
+span.feed-shared-actor__name {
+    color: var(--main-txt-color) !important;
+}
+
+/*
+Left sidebar
+*/
+a.feed-shared-interest-package__entity-link.feed-shared-interest-package__entity-link,
+.feed-shared-interest-package__entity-icon,
+.feed-shared-interest-package__cta,
+.feed-shared-interest-package__event-cta {
+    color: var(--helper-txt-color) !important;
+}
+.feed-shared-interest-package__header,
+.feed-shared-navigation-module__discover-cta {
+    color: var(--main-txt-color) !important;
+}

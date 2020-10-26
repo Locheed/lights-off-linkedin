@@ -1,0 +1,51 @@
+// Base link and text colors
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--main-txt-color) !important;
+}
+.ql-editor.ql-blank::before {
+    color: var(--helper-txt-color) !important;
+}
+.artdeco-entity-lockup__title,
+.msg-entity-lockup__entity-title,
+.artdeco-modal__header h1,
+.artdeco-modal__header h2,
+.artdeco-modal__header h3,
+.artdeco-modal__header h4,
+.artdeco-modal__header h5,
+.artdeco-modal__header h6,
+.artdeco-text-input--label,
+.profile-card-one-to-one__profile-link,
+a.artdeco-toast-item__cta,
+a.artdeco-toast-item__cta:hover,
+a.artdeco-toast-item__cta:visited,
+a.artdeco-toast-item__cta:visited:hover {
+    color: var(--main-txt-color) !important;
+}
+.artdeco-entity-lockup__subtitle,
+.artdeco-entity-lockup__badge,
+.job-card-container__company-name,
+.job-card-container__company-name:visited,
+.job-card-container__metadata-item,
+.artdeco-toast-item__message,
+.feed-shared-contextual-header__info {
+    color: var(--helper-txt-color) !important;
+}
+.feed-shared-header__text-view a,
+.feed-shared-text-view__hashtag,
+.feed-shared-update-v2__commentary,
+.feed-shared-text-view__mention {
+    color: var(--main-txt-color) !important;
+}
+
+span.feed-shared-actor__description,
+span.feed-shared-actor__name {
+    color: var(--main-txt-color) !important;
+}

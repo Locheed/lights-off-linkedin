@@ -1,0 +1,28 @@
+// Article publishing
+
+// Main styling
+.publishing-page,
+.zen-nav,
+.ql-picker-options {
+    background-color: var(--main-surface-color) !important;
+    button {
+        color: var(--main-txt-color) !important;
+        &:hover {
+            background-color: var(--main-surface-color--tinted) !important;
+        }
+    }
+}
+// Image area
+.cover-image {
+    &__label {
+        background-color: var(--main-surface-color--tinted) !important;
+    }
+}
+
+// Buttons
+.artdeco-button__icon {
+    color: var(--main-surface-color--light-muted) !important;
+}
+.publishing-cover-image__enable-button {
+    background-color: var(--main-surface-color--tinted) !important;
+}

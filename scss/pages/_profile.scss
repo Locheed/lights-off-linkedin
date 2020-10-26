@@ -1,0 +1,43 @@
+// Profile page
+
+.theme--mercado section.poc-opportunities-card--unenrolled {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.pv-about__summary-text .lt-line-clamp__ellipsis::before {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        var(--main-surface-color)
+    ) !important;
+}
+.theme--mercado .pv-about__summary-text .lt-line-clamp__more {
+    color: var(--main-txt-color) !important;
+}
+.profile-photo-edit,
+.pab-featured-item__image,
+.pv-profile-sticky-header,
+.artdeco-button--inverse.artdeco-button,
+.artdeco-button--inverse.artdeco-button--primary,
+.pv-profile-section__card-item-v2,
+.pv-entity__position-group-pager,
+.pv-profile-section__section-info,
+.pv-profile-section__card-item,
+.pv-accomplishments-block--expanded {
+    background-color: var(--main-surface-color) !important;
+}
+.theme--mercado .pv-dashboard-section {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+.theme--mercado .pe-hub-drawer__expand-button,
+.actor-name-with-distance {
+    color: var(--main-txt-color) !important;
+}
+.distance-badge,
+.pv-accomplishments-block__summary-list-item {
+    color: var(--helper-txt-color) !important;
+}
+.inline-show-more-text__button,
+.inline-show-more-text__link-container-collapsed {
+    color: var(--helper-txt-color) !important;
+    background-color: var(--main-surface-color) !important;
+}

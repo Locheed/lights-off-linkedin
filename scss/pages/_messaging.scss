@@ -1,0 +1,9 @@
+// Messaging page
+
+.msg-messaging-container__core-rail,
+.msg-spinmail-thread__top-banner {
+    background-color: var(--main-surface-color) !important;
+}
+.msg-conversations-container__convo-item-link.active {
+    background-color: var(--main-surface-color--tinted) !important;
+}

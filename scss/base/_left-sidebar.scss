@@ -1,0 +1,21 @@
+// Left sidebar (Discover/recent
+
+// Links and the icons. Muted color
+a.feed-shared-interest-package__entity-link.feed-shared-interest-package__entity-link,
+.feed-shared-interest-package__entity-icon,
+.feed-shared-interest-package__cta,
+.feed-shared-interest-package__event-cta {
+    color: var(--helper-txt-color) !important;
+}
+
+// Headers and the CTA. Strong color
+.feed-shared-interest-package__header,
+.feed-shared-navigation-module__discover-cta {
+    color: var(--main-txt-color) !important;
+}
+
+// Hover effect for links and headers
+.feed-shared-interest-package__section-header:hover,
+.feed-shared-interest-package__entity-link:hover {
+    background-color: var(--main-surface-color--tinted) !important;
+}

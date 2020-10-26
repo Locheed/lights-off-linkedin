@@ -1,0 +1,16 @@
+// Helper classes
+
+// To emphasize text element
+.t-black {
+    color: var(--main-txt-color) !important;
+}
+
+// Lower contrast emphasize text element
+.t-black--light {
+    color: var(--helper-txt-color) !important;
+}
+
+// Also used to emphasize text elements
+strong {
+    color: var(--main-txt-color) !important;
+}

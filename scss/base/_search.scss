@@ -1,0 +1,16 @@
+// Searchbar and page
+
+// Small search popup after clicking search bar
+.search-global-typeahead__content,
+.container-with-shadow {
+    background-color: var(--main-surface-color) !important;
+}
+// List items inside the search popup
+.search-global-typeahead__content li:hover {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+// Placeholder text color in the search input
+.search-basic-typeahead input::placeholder,
+.search-result__social-proof-link {
+    color: var(--helper-txt-color) !important;
+}

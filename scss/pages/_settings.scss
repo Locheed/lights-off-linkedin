@@ -1,0 +1,34 @@
+// Settings page
+
+// Header
+#layout-header.minimal-nav div#header-banner {
+    background-color: var(--main-surface-color) !important;
+}
+
+#layout-header.minimal-nav a.minimal-util-nav-link {
+    color: var(--main-txt-color) !important;
+}
+
+.list--levee {
+    background-color: var(--main-surface-color) !important;
+}
+
+.list .expander .indicator {
+    color: var(--main-txt-color) !important;
+}
+.discovery-menu-categories-col .category-container .categories {
+    background-color: var(--main-surface-color) !important;
+    .category {
+        color: var(--main-txt-color) !important;
+    }
+    li div.expanded-category {
+        color: var(--helper-txt-color) !important;
+    }
+}
+
+a.subcategory-nav {
+    color: var(--main-txt-color) !important;
+    &.active {
+        background-color: var(--main-surface-color--tinted) !important;
+    }
+}

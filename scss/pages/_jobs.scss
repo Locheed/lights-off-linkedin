@@ -1,0 +1,17 @@
+// Jobs page
+
+// Ranking text 10% of 82 applicants
+.jobs-top-applicant-job-card__rank-text--highlight {
+    color: var(--main-txt-color) !important;
+}
+
+// Main areas and premium box
+.jobs-home-soho--mercado-theme,
+.jobs-blended-container__module--premium {
+    background-color: var(--main-surface-color--tinted) !important;
+}
+
+// Jobs application settings https://www.linkedin.com/jobs/application-settings/
+.jobs-application-settings {
+    background-color: var(--main-surface-color) !important;
+}
